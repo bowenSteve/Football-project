@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(11, 252, 79),rgb(38, 29, 29));
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.hey{
+    width: 100px;
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    padding-right: 60px;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: beige;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
