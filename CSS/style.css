@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-=======
-=======
-<<<<<<< Updated upstream
->>>>>>> upcomingFixtures
 table{
     /*padding-left: 500px*/
     text-align: center;
@@ -28,8 +22,6 @@ td {
   background-color: rgba(255,255,255,0.2);
   color: black;
 }
-<<<<<<< HEAD
-=======
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -191,14 +183,13 @@ footer {
     justify-content: center;
     margin: auto;
 }
->>>>>>> Stashed changes
-=======
+
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
->>>>>>> main
+}
 
 * {
     padding: 0;
@@ -278,7 +269,7 @@ nav ul a:hover {
     align-items: center;
     margin-bottom: 30px;
 }
-<<<<<<< HEAD
+
 
 #hero-image h1 {
     color: var(--clr-white);
@@ -360,7 +351,7 @@ footer {
     justify-content: center;
     margin: auto;
 }
-=======
+
 .centered-text {
     text-align: center;
   }
@@ -392,8 +383,4 @@ footer {
     border: 1px solid black;
   }
 
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> f33791964d390dc25209fff81f8efa655e2e2138
->>>>>>> upcomingFixtures
+
