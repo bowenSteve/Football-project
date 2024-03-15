@@ -183,7 +183,6 @@ footer {
     justify-content: center;
     margin: auto;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -269,7 +268,6 @@ nav ul a:hover {
     align-items: center;
     margin-bottom: 30px;
 }
-
 
 #hero-image h1 {
     color: var(--clr-white);
