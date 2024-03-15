@@ -14,7 +14,8 @@
     --clr-light-green: #72A603;
     --clr-white: #ffffff;
     --clr-light-gray: #DADADA;
-}table{
+}
+table{
     text-align: center;
     margin-top: 50px;
     width: 100%;
