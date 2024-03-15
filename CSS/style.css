@@ -47,3 +47,33 @@ nav ul li a{
     align-items: center;
     padding: 0;
 }
+.centered-text {
+    text-align: center;
+  }
+  .newscontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  .box {
+    width: 50%;
+    margin: 5px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #F6F1F1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #FFDFDF;
+  }
+  .box img {
+    max-width: 100%; 
+    height: 50%; 
+    margin: 10px; 
+    box-sizing: border-box;
+  }
+  .news-category {
+    border: 1px solid black;
+  }
