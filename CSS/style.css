@@ -288,6 +288,7 @@ nav ul a:hover {
     color: var(--clr-white);
     font-weight: var(--fw-regular);
     padding: 0px 300px;
+    margin-bottom: 30px;
 }
 
 #header h1{

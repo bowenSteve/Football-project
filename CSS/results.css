@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --ff-montserrat: "Montserrat";
+    --fw-light: 400;
+    --fw-regular: 500;
+    --fw-medium: 600;
+    --fw-bold: 700;
+    --fw-extrabold: 800;
+    --clr-dark-green: #0B261E;
+    --clr-light-green: #72A603;
+    --clr-white: #ffffff;
+    --clr-light-gray: #DADADA;
+}
+
+
 table {
     width: 20%
   }
@@ -6,11 +25,54 @@ table {
     text-align: center;
     padding: 10px;
   }
+  
   tr {
     font-weight: bolder;
     font-size: larger;
   }
-  img {
-    max-width: 50px;
+  
+  #table-container img {
+    max-width: 30px;
     height: auto;
   }
+  nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    background-color: var(--clr-light-gray);
+    padding: 10px 200px;
+    overflow: hidden;
+}
+
+nav a img {
+    height: 67px;
+    width: 156px;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    right: 200px;
+    color: var(--clr-white);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul a {
+    background-color: #0B261E;
+    padding: 10px 30px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+nav ul a:active {
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: var(--clr-light-green);
+}
