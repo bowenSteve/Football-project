@@ -76,3 +76,16 @@ nav ul a:active {
 nav ul a:hover {
     background-color: var(--clr-light-green);
 }
+footer {
+  background-color: black;
+  color: var(--clr-white);
+  text-align: center;
+  height: 100px;
+  font-family: var(--ff-montserrat);
+  font-weight: var(--fw-light);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
